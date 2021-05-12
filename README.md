@@ -122,14 +122,13 @@ User model
 
 | HTTP Method |       URL      | Request Body           | Success status | Error Status | Description          |
 | ----------- | -------------------- | ---------------------------- | -------------- | ------------ | ---------------- |
-| GET         | `/api/auth/profile`| Saved session   | 200    | 404   | Check if user is logged in and return ProfileMarketPage |
-| POST        | `/api/auth/signup` | {username, email, password}|                 |     500      | Checks if fields not empty (400) and user not exists (400), then create user with encrypted password, and store user in session |
+| POST        | `/api/auth/signup`   | {username, email, password}|       200       |     500      | Checks if fields not empty (400) and user not exists (400), then create user with encrypted password, and store user in session |
 | POST        | `/api/auth/login`  | {username, password}  |       200       |     500     | Checks if fields not empty (400), if user exists (401), and if password matches (401), then stores user in session           |
 | POST        | `/api/auth/logout`     | (empty)           | 200            |              | Logs out the user         |
+| PUT         | `/api/auth/edit`    | {email}           | 200            | 500          | Edits an user   |
+| GET         | `/api/auth/profile`| Saved session   | 200    | 403   | Check if user is logged in and return ProfileMarketPage |
+| POST        | `/api/auth/delete`  | {email}           | 200            | 500          | Deletes an user   |
 | POST        | `/api/auth/recover`    | {email, password} | 200            |              | Recovers users password   |
-| GET         | `/api/profile/edit`    | {email}           | 200            | 500          | Edits an user   |
-| PUT         | `/api/profile/edit`    | {email}           | 200            | 500          | Edits an user   |
-| POST        | `/api/profile/delete`  | {email}           | 200            | 500          | Deletes an user   |
 
 
 ## Links
