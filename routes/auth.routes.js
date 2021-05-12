@@ -82,7 +82,7 @@ router.put('/edit', isLoggedIn, uploader.single('photo'), (req, res, next) => {
   .catch(error => res.status(500).json(error))
 })
 
-router.get('/loggedin', (req, res, next) => {
+router.get('/profile', (req, res, next) => {
   // req.isAuthenticated & req.user are defined by passport
   if(req.isAuthenticated()){
     return res.status(200).json(req.user);
