@@ -1,19 +1,18 @@
 #!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
-
  var app = require("../app");
  var debug = require("debug")(
    "todo-app-api:server"
  );
  var http = require("http");
+ const binance = require('../websockets/websocket-bin.js')
+
  require("dotenv").config();
  /**
   * Get port from environment and store in Express.
   */
- 
  var port = normalizePort(process.env.PORT || "3000");
  app.set("port", port);
  
@@ -22,6 +21,7 @@
   */
  
  var server = http.createServer(app);
+ binance(server);
  
  /**
   * Listen on provided port, on all network interfaces.
