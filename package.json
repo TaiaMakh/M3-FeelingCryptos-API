@@ -37,7 +37,9 @@
     "nodemailer-smtp-transport": "^2.7.4",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "twitter": "^1.7.1",
+    "twitter-v2": "^1.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
