@@ -87,6 +87,7 @@ router.get('/profile', (req, res, next) => {
   if(req.isAuthenticated()){
     return res.status(200).json(req.user);
   } else {
+    //todo why this?
     return res.status(403).json({ message: 'Forbidden' });
   }
 })
