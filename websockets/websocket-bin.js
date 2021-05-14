@@ -12,21 +12,21 @@ module.exports = (server) => {
     })
     //request.origin url front
     wsServer.on(('request'), (request => {
-        console.log((new Date()) + 'Received a new connection from origin' + request.origin + '.')
-        const connection = request.accept(null, request.origin)
+        console.log((new Date()) + 'Received a new connection from origin ' + process.env.PUBLIC_DOMAIN + '.')
+        const connection = request.accept(null, process.env.PUBLIC_DOMAIN)
 
-        connection.on ('message', () => {
-            console.log('start connection')
-            binance.websockets.chart("BNBBTC", "1m", (symbol, interval, chart) => {
+        connection.on ('message', (data) => {
+            console.log('start connection', data)
+
+            binance.websockets.chart("BTCUSDT", "1h", (symbol, interval, chart) => {
                 let tick = binance.last(chart);
                 const last = chart[tick].close;
-                // console.info(chart);
-                // Optionally convert 'chart' object to array:
+                const chartArr = Object.entries(chart)
                 // let ohlc = binance.ohlc(chart);
                 // console.info(symbol, ohlc);
+                console.info(chartArr)
                 console.info(symbol+" last price: "+last)
-                  connection.sendUTF(JSON.stringify(chart))
-          
+                connection.sendUTF(JSON.stringify(chartArr))        
                 console.log('sent Message to: ', connection);
         })
     })
