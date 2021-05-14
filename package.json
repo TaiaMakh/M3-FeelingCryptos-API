@@ -1,5 +1,5 @@
 {
-  "name": "M3-FeelingCryptos-API",
+  "name": "m3-feelingcryptos-api",
   "version": "1.0.0",
   "description": "## Description",
   "main": "index.js",
@@ -40,7 +40,7 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "twitter": "^1.7.1",
-    "twitter-v2": "^1.1.0"
+    "twitter-v2": "^1.1.0",
     "websocket": "^1.0.34"
   },
   "devDependencies": {
