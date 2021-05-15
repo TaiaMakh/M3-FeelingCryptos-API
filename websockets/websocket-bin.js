@@ -18,16 +18,16 @@ module.exports = (server) => {
         connection.on ('message', (data) => {
             console.log('start connection', data)
 
-            binance.websockets.chart("BTCUSDT", "1h", (symbol, interval, chart) => {
+            binance.websockets.chart(data.utf8Data === 'undefined' ? "BTCUSDT":`${data.utf8Data}`, "1h", (symbol, interval, chart) => {
                 let tick = binance.last(chart);
                 const last = chart[tick].close;
-                const chartArr = Object.entries(chart)
+                const chartArr = Object.entries(chart).slice(400, 500)
                 // let ohlc = binance.ohlc(chart);
                 // console.info(symbol, ohlc);
-                console.info(chartArr)
+                console.info(chartArr.length)
                 console.info(symbol+" last price: "+last)
                 connection.sendUTF(JSON.stringify(chartArr))        
-                console.log('sent Message to: ', connection);
+                //console.log('sent Message to: ', connection);
         })
     })
     }))
