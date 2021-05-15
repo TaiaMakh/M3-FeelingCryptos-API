@@ -48,7 +48,7 @@ router.post('/signup', (req, res, next) => {
   })
 })
 
-router.post('/login', isLoggedOut, (req, res, next) => {
+router.post('/login', (req, res, next) => {
   passport.authenticate('local', (error, theUser, failureDetails) => {
     if(error){
       return res.status(500).json(error);
