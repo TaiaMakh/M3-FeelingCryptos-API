@@ -26,9 +26,9 @@ module.exports = (server) => {
                 // console.info(symbol, ohlc);
                 console.info(chartArr.length)
                 console.info(symbol+" last price: "+last)
-                connection.sendUTF(JSON.stringify(chartArr))        
+                connection.sendUTF(JSON.stringify({chartArr, symbol}))         
                 //console.log('sent Message to: ', connection);
+            })
         })
-    })
     }))
 }
