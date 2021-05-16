@@ -1,5 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+const { Strategy: TwitterStrategy } = require('passport-twitter');
 const User = require('../models/User.model');
 const bcrypt = require('bcryptjs');
 
@@ -30,6 +31,19 @@ module.exports = (app) => {
     }) 
     .catch((error) => next(error))
   }))
+
+  // Twitter Strategy
+  passport.use(new TwitterStrategy({
+    consumerKey: process.env.TWITTER_CONSUMER_KEY,
+    consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
+    callbackURL: "http://127.0.0.1:5000/auth/twitter/callback"
+  },
+  function(token, tokenSecret, profile, cb) {
+    User.findOrCreate({ twitterId: profile.id }, function (err, user) {
+      return cb(err, user);
+    });
+  }
+));
 
   app.use(passport.initialize());
   app.use(passport.session());

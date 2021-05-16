@@ -87,7 +87,7 @@ router.get('/profile', (req, res, next) => {
     return res.status(200).json(req.user);
   } else {
     //todo why this?
-    return res.status(403).json({ message: 'Forbidden' });
+    return res.status(307).json({ message: "User isn't logged in. Redirect" });
   }
 })
 
@@ -96,5 +96,15 @@ router.post('/delete', (req, res, next) =>{
   .then(() => res.status(200).json({message: 'User removed'}))
   .catch(error => res.status(500).json(error))
 })
+
+// Social auth routes
+router.get('/twitter', passport.authenticate('twitter'));
+
+router.get('/twitter/callback', 
+  passport.authenticate('twitter', { failureRedirect: '/login' }),
+  function(req, res) {
+    // Successful authentication, redirect home.
+    res.status(200).json(req.user);
+});
 
 module.exports = router;
