@@ -32,9 +32,9 @@ This is a web application that shows crypto currency market in real time and rel
 | `/signup` | SignupPage              | anon only  `<AnonRoute>`    | Signup form, link to login, navigate to homepage after signup |
 | `/login`  | LoginPage               | anon only `<AnonRoute>`     | Login form, link to signup, navigate to homepage after login |
 | `/recover`| RecoverPassPage| anon only  `<AnonRoute>`  | Recover Password form, link to login, navigate to homepage after recover |
-| `/auth/:id/:market/feed` | ProfileFeedPage      | user only `<PrivateRoute>`  | Shows feed related to users favorites markets|
-| `/auth/:id/:market`| ProfileMarketPage | user only  `<PrivateRoute>`| Shows favorites markets list, details related to selected market |
-| `/auth/:id/edit` | EditProfilePage    | user only `<PrivateRoute>`  | Edit users profile|
+| `/private/feed` | ProfileFeedPage      | user only `<PrivateRoute>`  | Shows feed related to users favorites markets|
+| `/private/:market`| ProfileMarketPage | user only  `<PrivateRoute>`| Shows favorites markets list, details related to selected market |
+| `/private/edit` | EditProfilePage    | user only `<PrivateRoute>`  | Edit users profile|
 
 
 
@@ -87,7 +87,7 @@ This is a web application that shows crypto currency market in real time and rel
   - binance.getMarketDetails(market)
 
 - Twitter Service
-  - twitter.getTweets(params)
+  - twitter.getRecentTweets(params)
   
 
 
@@ -109,9 +109,8 @@ User model
   notifications: [ ],
   pinned_feed: [
     {
-      element: { type: Object, required: true },
-      type: { type: String, enum: ['tweet', 'news'], required: true },
-      sentiment: { type: String, required: true },  
+      id: { type: String, required: true },
+      type: { type: String, enum: ['tweet', 'news'], required: true },      
     }
   ]
 }
@@ -129,17 +128,18 @@ User model
 | GET         | `/api/auth/profile`| Saved session   | 200    | 403   | Check if user is logged in and return ProfileMarketPage |
 | POST        | `/api/auth/delete`  | {email}           | 200            | 500          | Deletes an user   |
 | POST        | `/api/auth/recover`    | {email, password} | 200            |              | Recovers users password   |
+| POST        | `/api/twitter/recentTweets`    | {body} | 200            |              | Call twitter API for recent tweets with query params passed in body   |
 
 
 ## Links
 
 ### Trello/Kanban
-[Link to your trello board](https://trello.com/b/Yi0KGJxy/m3) 
+[Link to your trello board](https://trello.com/b/Yi0KGJxy/m3-feelingcryptos) 
 
 ### Git
-[Client repository Link]()
+[Client repository Link](https://github.com/Silinde87/M3-FeelingCryptos-Client)
 
-[Server repository Link]()
+[Server repository Link](https://github.com/TaiaMakh/M3-FeelingCryptos-API)
 
 [Deployed App Link]()
 

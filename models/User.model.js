@@ -20,9 +20,8 @@ const userSchema = new Schema({
   favorites_cryptos: [String],
   notifications: [],
   pinned_feed: [{
-      element: { type: Object, required: true},
+      id: { type: Object, required: true},
       type: { type: String, enum: ['tweet', 'news'], required: true },
-      sentiment: { type: String, required: true}
   }]
 }, {
   timestamps: true,
