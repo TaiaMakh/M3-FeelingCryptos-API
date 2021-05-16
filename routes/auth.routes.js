@@ -101,10 +101,13 @@ router.post('/delete', (req, res, next) =>{
 router.get('/twitter', passport.authenticate('twitter'));
 
 router.get('/twitter/callback', 
-  passport.authenticate('twitter', { failureRedirect: '/login' }),
-  function(req, res) {
-    // Successful authentication, redirect home.
-    res.status(200).json(req.user);
-});
+  passport.authenticate('twitter', { 
+    successRedirect: process.env.PUBLIC_DOMAIN,
+    failureRedirect: '/login'
+  }),
+  // function(req, res) {
+  //   // Successful authentication, redirect home.
+  //   res.status(200).json(req.user);}
+  );
 
 module.exports = router;
