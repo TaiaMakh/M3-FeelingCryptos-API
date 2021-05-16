@@ -76,7 +76,6 @@ router.post('/logout', isLoggedIn, (req, res, next) => {
 })
 
 router.put('/edit', isLoggedIn, uploader.single('photo'), (req, res, next) => {
-  console.log(req.file);
   User.findOneAndUpdate({ _id: req.user.id }, { ...req.body, photo: req.file ? req.file.path : req.user.photo }, { new: true })
   .then(user => res.status(200).json(user))
   .catch(error => res.status(500).json(error))
