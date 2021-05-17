@@ -36,10 +36,8 @@ module.exports = (app) => {
   passport.use(new TwitterStrategy({
     consumerKey: process.env.TWITTER_CONSUMER_KEY,
     consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
-    callbackURL: "/auth/twitter/callback",
-    //includeEmail: true, <-- alternative temp: if mail retrieve doesnt work.
-    userProfileURL  : 'https://api.twitter.com/1.1/account/verify_credentials.json?include_email=true',
-    passReqToCallback : true,
+    callbackURL: "/api/auth/twitter/callback",
+    includeEmail: true,
   },
     async (token, tokenSecret, profile, done) => {
       // find current user in UserModel
@@ -50,15 +48,16 @@ module.exports = (app) => {
       if (!currentUser) {
         User.create({ 
           twitterId: profile._json.id_str,
-          email: profile.emails[0].value,
-          username: profile._json.screen_name,
-          //username: name: profile._json.name, <-- alternative temp: if username doesnt work.
+          email: profile._json.email,
+          username: profile._json.name,
           photo: profile._json.profile_image_url
         })
         .then(newUser => {
-          cb(null, newUser)
+          done(null, newUser);
         })
-        .catch(error => cb(error))
+        .catch(error => done(error))
+      } else {
+        done(null, currentUser);
       }
     }
   ));
