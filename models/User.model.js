@@ -16,13 +16,12 @@ const userSchema = new Schema({
   resetPasswordToken: { type: String },
   resetPasswordExpires: { type: Date },
   photo: { type: String, default:"https://res.cloudinary.com/dkevcmz3i/image/upload/v1619125766/Service-Wall/user_avatar_xyyphc.png"},
-  google_id: { type: String },
+  twitterId: { type: String },
   favorites_cryptos: [String],
   notifications: [],
   pinned_feed: [{
-      element: { type: Object, required: true},
+      id: { type: Object, required: true},
       type: { type: String, enum: ['tweet', 'news'], required: true },
-      sentiment: { type: String, required: true}
   }]
 }, {
   timestamps: true,
