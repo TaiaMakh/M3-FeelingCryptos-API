@@ -86,7 +86,6 @@ router.get('/profile', (req, res, next) => {
   if(req.isAuthenticated()){
     return res.status(200).json(req.user);
   } else {
-    //todo why this?
     return res.status(307).json({ message: "User isn't logged in. Redirect" });
   }
 })
@@ -100,14 +99,15 @@ router.post('/delete', (req, res, next) =>{
 // Social auth routes
 router.get('/twitter', passport.authenticate('twitter'));
 
+router.get('/twitter/fail', (req, res, next) => {
+  return res.status(401).json({message: 'twitter fail'})
+})
+
 router.get('/twitter/callback', 
   passport.authenticate('twitter', { 
     successRedirect: process.env.PUBLIC_DOMAIN,
-    failureRedirect: '/login'
+    failureRedirect: '/api/auth/twitter/fail'
   }),
-  // function(req, res) {
-  //   // Successful authentication, redirect home.
-  //   res.status(200).json(req.user);}
-  );
+);
 
 module.exports = router;
