@@ -3,7 +3,7 @@ const router = express.Router();
 const User = require('../models/User.model');
 const { isLoggedOut, isLoggedIn } = require('../middlewares');
 
-router.post('/favorties', isLoggedIn, (req, res, next) => {
+router.post('/', isLoggedIn, (req, res, next) => {
     User.findByIdAndUpdate({ _id: req.user.id },  { $addToSet: { favorites_cryptos: req.body.favorites_cryptos }}, {new: true}) 
     .then(user => {
         console.log(user)
