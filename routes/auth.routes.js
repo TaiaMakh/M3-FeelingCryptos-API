@@ -86,7 +86,6 @@ router.get('/profile', (req, res, next) => {
   if(req.isAuthenticated()){
     return res.status(200).json(req.user);
   } else {
-    //todo why this?
     return res.status(307).json({ message: "User isn't logged in. Redirect" });
   }
 })

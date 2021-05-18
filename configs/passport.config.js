@@ -46,11 +46,14 @@ module.exports = (app) => {
       });
       // create new user if the database doesn't have this user
       if (!currentUser) {
+        //retrieving high resolution profile image
+        let image = profile._json.profile_image_url;
+        image = image.replace('_normal', '');
         User.create({ 
           twitterId: profile._json.id_str,
           email: profile._json.email,
           username: profile._json.name,
-          photo: profile._json.profile_image_url
+          photo: image
         })
         .then(newUser => {
           done(null, newUser);
