@@ -13,11 +13,14 @@ module.exports = (server) => {
     //request.origin url front
     wsServer.on(('request'), (request => {
         console.log((new Date()) + 'Received a new connection from origin ' + process.env.PUBLIC_DOMAIN + '.')
-        const connection = request.accept(null, process.env.PUBLIC_DOMAIN)
+        const connection = request.accept(null, request.origin)
 
         connection.on ('message', (data) => {
             console.log('start connection', data)
              binance.websockets.chart(data.utf8Data === 'undefined' ? "BTCUSDT":`${data.utf8Data}`, "1h", (symbol, interval, chart) => {
+                //console.log(chart)
+                if(Object.entries(chart).length) {  
+                    
                 let tick = binance.last(chart);
                 const last = chart[tick].close;
                 const chartArr = Object.entries(chart).slice(400, 500)
@@ -27,6 +30,7 @@ module.exports = (server) => {
                 console.info(symbol+" last price: "+last)
 
                 connection.sendUTF(JSON.stringify({chartArr, symbol}))         
+                }
             })
         })
     }))
