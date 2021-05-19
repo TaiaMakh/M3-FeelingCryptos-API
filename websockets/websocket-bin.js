@@ -20,14 +20,13 @@ module.exports = (server) => {
              binance.websockets.chart(data.utf8Data === 'undefined' ? "BTCUSDT":`${data.utf8Data}`, "1h", (symbol, interval, chart) => {
                 //console.log(chart)
                 if(Object.entries(chart).length) {  
-                    
                 let tick = binance.last(chart);
-                const last = chart[tick].close;
+                //const last = chart[tick].close;
                 const chartArr = Object.entries(chart).slice(400, 500)
                 // let ohlc = binance.ohlc(chart);
                 // console.info(symbol, ohlc);
-                console.info(chartArr.length)
-                console.info(symbol+" last price: "+last)
+                //console.info(chartArr.length)
+                //console.info(symbol+" last price: "+last)
 
                 connection.sendUTF(JSON.stringify({chartArr, symbol}))         
                 }
