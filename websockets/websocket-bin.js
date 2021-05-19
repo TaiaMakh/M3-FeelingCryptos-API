@@ -13,7 +13,7 @@ module.exports = (server) => {
     //request.origin url front
     wsServer.on(('request'), (request => {
         console.log((new Date()) + 'Received a new connection from origin ' + process.env.PUBLIC_DOMAIN + '.')
-        const connection = request.accept(null, process.env.PUBLIC_DOMAIN)
+        const connection = request.accept(null, request.origin)
 
         connection.on ('message', (data) => {
             console.log('start connection', data)
