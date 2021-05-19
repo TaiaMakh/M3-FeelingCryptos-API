@@ -15,8 +15,16 @@ require('./configs/cors.config')(app);
 require('./configs/session.config')(app);
 require('./configs/passport.config')(app);
 
+// Twitter config
+require('./configs/twitter.config');
+
 const authRouter = require('./routes/auth.routes');
+const twitterRouter = require('./routes/twitter.routes');
+const privateRoutes = require('./routes/private.routes');
 app.use('/api/auth', authRouter);
+app.use('/api/twitter', twitterRouter);
+app.use('/api/private', privateRoutes);
+
 
 //  Catch 404 and respond with error message
 app.use((req, res, next) => {

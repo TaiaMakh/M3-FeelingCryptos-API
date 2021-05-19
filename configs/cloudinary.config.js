@@ -11,7 +11,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: "cloudinary-example",
+    folder: "Feeling-Crypto",
     allowed_formats: ['png', 'jpg']
   }
 })

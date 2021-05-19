@@ -1,5 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+const { Strategy: TwitterStrategy } = require('passport-twitter');
 const User = require('../models/User.model');
 const bcrypt = require('bcryptjs');
 
@@ -30,6 +31,39 @@ module.exports = (app) => {
     }) 
     .catch((error) => next(error))
   }))
+
+  // Twitter Strategy
+  passport.use(new TwitterStrategy({
+    consumerKey: process.env.TWITTER_CONSUMER_KEY,
+    consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
+    callbackURL: "/api/auth/twitter/callback",
+    includeEmail: true,
+  },
+    async (token, tokenSecret, profile, done) => {
+      // find current user in UserModel
+      const currentUser = await User.findOne({
+        twitterId: profile._json.id_str
+      });
+      // create new user if the database doesn't have this user
+      if (!currentUser) {
+        //retrieving high resolution profile image
+        let image = profile._json.profile_image_url;
+        image = image.replace('_normal', '');
+        User.create({ 
+          twitterId: profile._json.id_str,
+          email: profile._json.email,
+          username: profile._json.name,
+          photo: image
+        })
+        .then(newUser => {
+          done(null, newUser);
+        })
+        .catch(error => done(error))
+      } else {
+        done(null, currentUser);
+      }
+    }
+  ));
 
   app.use(passport.initialize());
   app.use(passport.session());

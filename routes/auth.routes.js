@@ -48,7 +48,7 @@ router.post('/signup', (req, res, next) => {
   })
 })
 
-router.post('/login', isLoggedOut, (req, res, next) => {
+router.post('/login', (req, res, next) => {
   passport.authenticate('local', (error, theUser, failureDetails) => {
     if(error){
       return res.status(500).json(error);
@@ -76,7 +76,6 @@ router.post('/logout', isLoggedIn, (req, res, next) => {
 })
 
 router.put('/edit', isLoggedIn, uploader.single('photo'), (req, res, next) => {
-  console.log(req.file);
   User.findOneAndUpdate({ _id: req.user.id }, { ...req.body, photo: req.file ? req.file.path : req.user.photo }, { new: true })
   .then(user => res.status(200).json(user))
   .catch(error => res.status(500).json(error))
@@ -87,7 +86,7 @@ router.get('/profile', (req, res, next) => {
   if(req.isAuthenticated()){
     return res.status(200).json(req.user);
   } else {
-    return res.status(403).json({ message: 'Forbidden' });
+    return res.status(307).json({ message: "User isn't logged in. Redirect" });
   }
 })
 
@@ -96,5 +95,19 @@ router.post('/delete', (req, res, next) =>{
   .then(() => res.status(200).json({message: 'User removed'}))
   .catch(error => res.status(500).json(error))
 })
+
+// Social auth routes
+router.get('/twitter', passport.authenticate('twitter'));
+
+router.get('/twitter/fail', (req, res, next) => {
+  return res.status(401).json({message: 'twitter fail'})
+})
+
+router.get('/twitter/callback', 
+  passport.authenticate('twitter', { 
+    successRedirect: process.env.PUBLIC_DOMAIN,
+    failureRedirect: '/api/auth/twitter/fail'
+  }),
+);
 
 module.exports = router;
