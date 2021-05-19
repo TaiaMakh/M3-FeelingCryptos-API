@@ -25,6 +25,12 @@ app.use('/api/auth', authRouter);
 app.use('/api/twitter', twitterRouter);
 app.use('/api/private', privateRoutes);
 
+// ROUTE FOR SERVING REACT APP (index.html)
+app.use((req, res, next) => {
+  // If no previous routes match the request, send back the React app.
+  res.sendFile(__dirname + "/public/index.html");
+});
+
 
 //  Catch 404 and respond with error message
 app.use((req, res, next) => {
