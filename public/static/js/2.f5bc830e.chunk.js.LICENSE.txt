@@ -5,6 +5,15 @@ object-assign
 */
 
 /*!
+   Transformation Matrix v2.0
+   (c) Epistemex 2014-2015
+   www.epistemex.com
+   By Ken Fyrstenberg
+   Contributions by leeoniya.
+   License: MIT, header required.
+   */
+
+/*!
  * ApexCharts v3.26.2
  * (c) 2018-2021 Juned Chhipa
  * Released under the MIT License.
