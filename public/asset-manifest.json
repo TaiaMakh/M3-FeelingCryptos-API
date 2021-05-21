@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.bddf9b2a.chunk.css",
-    "main.js": "/static/js/main.1fa73198.chunk.js",
-    "main.js.map": "/static/js/main.1fa73198.chunk.js.map",
+    "main.js": "/static/js/main.269a8d44.chunk.js",
+    "main.js.map": "/static/js/main.269a8d44.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.191a7e98.js",
     "runtime-main.js.map": "/static/js/runtime-main.191a7e98.js.map",
-    "static/js/2.0d43c4cf.chunk.js": "/static/js/2.0d43c4cf.chunk.js",
-    "static/js/2.0d43c4cf.chunk.js.map": "/static/js/2.0d43c4cf.chunk.js.map",
+    "static/js/2.9ca7b0a1.chunk.js": "/static/js/2.9ca7b0a1.chunk.js",
+    "static/js/2.9ca7b0a1.chunk.js.map": "/static/js/2.9ca7b0a1.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.bddf9b2a.chunk.css.map": "/static/css/main.bddf9b2a.chunk.css.map",
-    "static/js/2.0d43c4cf.chunk.js.LICENSE.txt": "/static/js/2.0d43c4cf.chunk.js.LICENSE.txt",
+    "static/js/2.9ca7b0a1.chunk.js.LICENSE.txt": "/static/js/2.9ca7b0a1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Mulish-SemiBold.9f38b9b7.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.191a7e98.js",
-    "static/js/2.0d43c4cf.chunk.js",
+    "static/js/2.9ca7b0a1.chunk.js",
     "static/css/main.bddf9b2a.chunk.css",
-    "static/js/main.1fa73198.chunk.js"
+    "static/js/main.269a8d44.chunk.js"
   ]
 }
