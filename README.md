@@ -1,5 +1,16 @@
 # M3-FeelingCrypto - API
 
+## How it looks
+
+🔗 [Live Demo](https://feeling-crypto.herokuapp.com/)
+
+<a href="https://raw.githubusercontent.com/Silinde87/repo-media/main/images/FeelingCrypto-screen3.png" target="_blank">
+<img src="https://raw.githubusercontent.com/Silinde87/repo-media/main/images/FeelingCrypto-screen3.png" width="288px" height="153px">
+</a>
+<a href="https://raw.githubusercontent.com/Silinde87/repo-media/main/images/FeelingCrypto-screen1.png" target="_blank">
+<img src="https://raw.githubusercontent.com/Silinde87/repo-media/main/images/FeelingCrypto-screen1.png" width="288px" height="153px">
+</a>
+
 ## Description
 
 This is a web application that shows crypto currency market in real time and relates each of them with the analized sentiments, through the social opinion extracted from Twitter feed. Suggesting the best moments to sell and buy.
