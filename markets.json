@@ -1,0 +1,682 @@
+[
+	{
+		"market": "ETH/BTC",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "LTC/BTC",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "BNB/BTC",
+		"name": "WrappedBNB",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247850/Feeling-Crypto/crypto-icon/wrappedbnb_ke4rcn.png"
+	},
+	{
+		"market": "NEO/BTC",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+	{
+		"market": "BNB/ETH",
+		"name": "WrappedBNB",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247850/Feeling-Crypto/crypto-icon/wrappedbnb_ke4rcn.png"
+	},
+	{
+		"market": "BTC/USDT",
+		"name": "Bitcoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246980/Feeling-Crypto/crypto-icon/btc_rrsud3.png"
+	},
+	{
+		"market": "ETH/USDT",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "NEO/ETH",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+
+	{
+		"market": "LINK/BTC",
+		"name": "Chainlink",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247265/Feeling-Crypto/crypto-icon/chain_lfca0y.png"
+	},
+
+	{
+		"market": "LINK/ETH",
+		"name": "Chainlink",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247265/Feeling-Crypto/crypto-icon/chain_lfca0y.png"
+	},
+
+	{
+		"market": "ETC/ETH",
+		"name": "EthereumClassic",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247341/Feeling-Crypto/crypto-icon/etc_mm83vi.png"
+	},
+
+	{
+		"market": "ETC/BTC",
+		"name": "EthereumClassic",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247341/Feeling-Crypto/crypto-icon/etc_mm83vi.png"
+	},
+	{
+		"market": "XRP/ETH",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "BCH/ETH",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "NEO/USDT",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+	{
+		"market": "NEO/BNB",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+	{
+		"market": "ADA/ETH",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "XLM/BTC",
+		"name": "Stellar",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252411/Feeling-Crypto/crypto-icon/xlm_ae8bsw.png"
+	},
+	{
+		"market": "XLM/ETH",
+		"name": "Stellar",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252411/Feeling-Crypto/crypto-icon/xlm_ae8bsw.png"
+	},
+	{
+		"market": "XLM/BNB",
+		"name": "Stellar",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252411/Feeling-Crypto/crypto-icon/xlm_ae8bsw.png"
+	},
+	{
+		"market": "LTC/ETH",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "LTC/USDT",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "LTC/BNB",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "ADA/USDT",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "ADA/BNB",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "XRP/USDT",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "THETA/BTC",
+		"name": "THETA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247353/Feeling-Crypto/crypto-icon/theta_d5owzv.png"
+	},
+	{
+		"market": "THETA/ETH",
+		"name": "THETA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247353/Feeling-Crypto/crypto-icon/theta_d5owzv.png"
+	},
+	{
+		"market": "THETA/BNB",
+		"name": "THETA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247353/Feeling-Crypto/crypto-icon/theta_d5owzv.png"
+	},
+	{
+		"market": "XRP/BNB",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "XLM/USDT",
+		"name": "Stellar",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252411/Feeling-Crypto/crypto-icon/xlm_ae8bsw.png"
+	},
+	{
+		"market": "TRX/USDT",
+		"name": "Tron",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248243/Feeling-Crypto/crypto-icon/trx_oygaag.png"
+	},
+	{
+		"market": "ETCUSDT",
+		"name": "EthereumClassic",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247341/Feeling-Crypto/crypto-icon/etc_mm83vi.png"
+	},
+	{
+		"market": "ETC/BNB",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "USDC/BNB",
+		"name": "USDCoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247316/Feeling-Crypto/crypto-icon/usdc_hu9gkg.png"
+	},
+	{
+		"market": "BTC/PAX",
+		"name": "Bitcoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246980/Feeling-Crypto/crypto-icon/btc_rrsud3.png"
+	},
+	{
+		"market": "ETH/PAX",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "XRP/PAX",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "BNB/USDC",
+		"name": "BinanceCoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247850/Feeling-Crypto/crypto-icon/wrappedbnb_ke4rcn.png"
+	},
+	{
+		"market": "BTC/USDC",
+		"name": "Bitcoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246980/Feeling-Crypto/crypto-icon/btc_rrsud3.png"
+	},
+	{
+		"market": "ETH/USDC",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "USDC/PAX",
+		"name": "USDCoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247316/Feeling-Crypto/crypto-icon/usdc_hu9gkg.png"
+	},
+	{
+		"market": "LINK/USDT",
+		"name": "Chainlink",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247265/Feeling-Crypto/crypto-icon/chain_lfca0y.png"
+	},
+	{
+		"market": "LINKPAX",
+		"name": "Chainlink",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247265/Feeling-Crypto/crypto-icon/chain_lfca0y.png"
+	},
+	{
+		"market": "LTC/TUSD",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "LTC/PAX",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "LTC/USDC",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "BTT/BTC",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BTT/BTC",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BTT/BNB",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BTT/USDT",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BTT/PAX",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BTT/TUSD",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BTT/USDC",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "ADA/PAX",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "NEO/PAX",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+	{
+		"market": "NEO/USDC",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+	{
+		"market": "THETA/USDT",
+		"name": "THETA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247353/Feeling-Crypto/crypto-icon/theta_d5owzv.png"
+	},
+	{
+		"market": "MATIC/BNB",
+		"name": "Polygon",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264116/Feeling-Crypto/crypto-icon/matic_nezczq.png"
+	},
+	{
+		"market": "MATIC/BTC",
+		"name": "Polygon",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264116/Feeling-Crypto/crypto-icon/matic_nezczq.png"
+	},
+	{
+		"market": "MATIC/USDT",
+		"name": "Polygon",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264116/Feeling-Crypto/crypto-icon/matic_nezczq.png"
+	},
+	{
+		"market": "ATOM/BNB",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ATOM/BTC",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ATOM/BTC",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ATOM/USDT",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ATOM/USDC",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ATOM/PAX",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ATOM/TUSD",
+		"name": "Cosmos",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248614/Feeling-Crypto/crypto-icon/atom_cubpht.png"
+	},
+	{
+		"market": "ETC/USDC",
+		"name": "EthereumClassic",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247341/Feeling-Crypto/crypto-icon/etc_mm83vi.png"
+	},
+	{
+		"market": "ETC/PAX",
+		"name": "EthereumClassic",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247341/Feeling-Crypto/crypto-icon/etc_mm83vi.png"
+	},
+	{
+		"market": "DOGE/BNB",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/BTC",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/USDT",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/PAX",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/USDC",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "BNB/BUSD",
+		"name": "BinanceCoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247850/Feeling-Crypto/crypto-icon/wrappedbnb_ke4rcn.png"
+	},
+	{
+		"market": "BTC/BUSD",
+		"name": "Bitcoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246980/Feeling-Crypto/crypto-icon/btc_rrsud3.png"
+	},
+	{
+		"market": "BUSD/USDT",
+		"name": "BinanceUSD",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248430/Feeling-Crypto/crypto-icon/busd_zffwfx.png"
+	},
+	{
+		"market": "XRP/BUSD",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "ETH/BUSD",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "LTC/BUSD",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "LINK/BUSD",
+		"name": "Chainlink",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247265/Feeling-Crypto/crypto-icon/chain_lfca0y.png"
+	},
+	{
+		"market": "ETC/BUSD",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "XLM/BUSD",
+		"name": "Stellar",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252411/Feeling-Crypto/crypto-icon/xlm_ae8bsw.png"
+	},
+	{
+		"market": "ADA/BUSD",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "BCH/BNB",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "BCH/BTC",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "BCH/USDT",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "BCH/TUSD",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "BCH/PAX",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "BCH/BUSD",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "ETH/RUB",
+		"name": "Ethereum",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621246997/Feeling-Crypto/crypto-icon/eth_qpe9ee.png"
+	},
+	{
+		"market": "XRP/RUB",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "XRP/EUR",
+		"name": "XRP",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252320/Feeling-Crypto/crypto-icon/xrp_zyu7pp.png"
+	},
+	{
+		"market": "NEO/BUSD",
+		"name": "Neo",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247513/Feeling-Crypto/crypto-icon/neo_ag3mpe.png"
+	},
+	{
+		"market": "BTT/BUSD",
+		"name": "BitTorrent",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248217/Feeling-Crypto/crypto-icon/btt_dbj5d0.png"
+	},
+	{
+		"market": "BNB/ZAR",
+		"name": "BinanceCoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247850/Feeling-Crypto/crypto-icon/wrappedbnb_ke4rcn.png"
+	},
+	{
+		"market": "SOL/BNB",
+		"name": "Solana",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247307/Feeling-Crypto/crypto-icon/sol_yjfwi1.png"
+	},
+	{
+		"market": "SOL/BTC",
+		"name": "Solana",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247307/Feeling-Crypto/crypto-icon/sol_yjfwi1.png"
+	},
+	{
+		"market": "SOL/USDT",
+		"name": "Solana",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247307/Feeling-Crypto/crypto-icon/sol_yjfwi1.png"
+	},
+	{
+		"market": "SOL/BUSD",
+		"name": "Solana",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247307/Feeling-Crypto/crypto-icon/sol_yjfwi1.png"
+	},
+	{
+		"market": "DOGE/BUSD",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOT/BNB",
+		"name": "Polkadot",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264199/Feeling-Crypto/crypto-icon/dot_stvigz.png"
+	},
+	{
+		"market": "DOT/BTC",
+		"name": "Polkadot",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264199/Feeling-Crypto/crypto-icon/dot_stvigz.png"
+	},
+	{
+		"market": "DOT/BUSD",
+		"name": "Polkadot",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264199/Feeling-Crypto/crypto-icon/dot_stvigz.png"
+	},
+	{
+		"market": "DOT/USDT",
+		"name": "Polkadot",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264199/Feeling-Crypto/crypto-icon/dot_stvigz.png"
+	},
+	{
+		"market": "LUNA/BNB",
+		"name": "TERRA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248518/Feeling-Crypto/crypto-icon/luna_umvnuv.png"
+	},
+	{
+		"market": "LUNA/BTC",
+		"name": "TERRA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248518/Feeling-Crypto/crypto-icon/luna_umvnuv.png"
+	},
+	{
+		"market": "LUNA/BUSD",
+		"name": "TERRA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248518/Feeling-Crypto/crypto-icon/luna_umvnuv.png"
+	},
+	{
+		"market": "LUNA/USDT",
+		"name": "TERRA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248518/Feeling-Crypto/crypto-icon/luna_umvnuv.png"
+	},
+	{
+		"market": "UNI/BNB",
+		"name": "Uniswap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247220/Feeling-Crypto/crypto-icon/uni_wdjjy9.png"
+	},
+	{
+		"market": "UNI/BTC",
+		"name": "Uniswap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247220/Feeling-Crypto/crypto-icon/uni_wdjjy9.png"
+	},
+	{
+		"market": "UNI/BUSD",
+		"name": "Uniswap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247220/Feeling-Crypto/crypto-icon/uni_wdjjy9.png"
+	},
+	{
+		"market": "UNI/USDT",
+		"name": "Uniswap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247220/Feeling-Crypto/crypto-icon/uni_wdjjy9.png"
+	},
+	{
+		"market": "LINK/EUR",
+		"name": "Chainlink",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247265/Feeling-Crypto/crypto-icon/chain_lfca0y.png"
+	},
+	{
+		"market": "DOT/EUR",
+		"name": "Polkadot",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621264199/Feeling-Crypto/crypto-icon/dot_stvigz.png"
+	},
+	{
+		"market": "LTC/EUR",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "ADA/EUR",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "BCH/EUR",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+
+	{
+		"market": "BCH/EUR",
+		"name": "BitcoinCash",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252391/Feeling-Crypto/crypto-icon/bch_w3kllj.png"
+	},
+	{
+		"market": "LTC/RUB",
+		"name": "Litecoin",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621263862/Feeling-Crypto/crypto-icon/ltc_rwfmch.png"
+	},
+	{
+		"market": "DOGE/EUR",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/TRY",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/BRL",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "DOGE/GBP",
+		"name": "Doge",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247066/Feeling-Crypto/crypto-icon/doge_xv1yhd.png"
+	},
+	{
+		"market": "ADA/GBP",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "ADA/AUD",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "ADA/RUB",
+		"name": "Cardano",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621252278/Feeling-Crypto/crypto-icon/ada_gqx6fr.png"
+	},
+	{
+		"market": "LUNA/EUR",
+		"name": "TERRA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248518/Feeling-Crypto/crypto-icon/luna_umvnuv.png"
+	},
+	{
+		"market": "UNI/EUR",
+		"name": "Uniswap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247220/Feeling-Crypto/crypto-icon/uni_wdjjy9.png"
+	},
+	{
+		"market": "THETA/EUR",
+		"name": "THETA",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621247353/Feeling-Crypto/crypto-icon/theta_d5owzv.png"
+	},
+	{
+		"market": "CAKEBTC",
+		"name": "PancakeSwap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248808/Feeling-Crypto/crypto-icon/cake_hqyda8.png"
+	},
+	{
+		"market": "CAKEUSDT",
+		"name": "PancakeSwap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248808/Feeling-Crypto/crypto-icon/cake_hqyda8.png"
+	},
+	{
+		"market": "CAKEBNB",
+		"name": "PancakeSwap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248808/Feeling-Crypto/crypto-icon/cake_hqyda8.png"
+	},
+	{
+		"market": "CAKEGBP",
+		"name": "PancakeSwap",
+		"image": "https://res.cloudinary.com/dkevcmz3i/image/upload/v1621248808/Feeling-Crypto/crypto-icon/cake_hqyda8.png"
+	}
+]
